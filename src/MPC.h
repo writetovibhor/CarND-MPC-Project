@@ -6,6 +6,11 @@
 
 using namespace std;
 
+extern size_t N;
+extern double dt;
+extern const double Lf;
+extern const int latency_offset;
+
 class MPC {
  public:
   MPC();
